@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(208, 221, 208, 1);
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack the nav bar and info box vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+h1 {
+    color: rgba(114, 125, 115, 1);
+}
+
+nav {
+    margin-top: 3rem;
+    margin-bottom: 5rem; /* Add spacing between the nav and the box */
+    font-family: 'Kalnia', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid rgba(114, 125, 115, 1); /* Border color matching text */
+    background-color: rgba(170, 185, 154, 1); /* Solid white background */
+    padding: 2rem;
+    border-radius: 25px; /* Rounds the corners */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 1rem; /* Add horizontal spacing between links */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgba(72, 83, 73, 1); /* Darker shade for hover effect */
+}
+
+.info {
+    margin: 1; 
+    display: flex; 
+    justify-content: center; /* Center content inside the box */
+    align-items: center; 
+    font-family: 'Kalnia', sans-serif; /* Use 'sans-serif' as a fallback */
+    color: rgba(114, 125, 115, 1);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    border: 2px solid rgba(114, 125, 115, 1); /* Border color matching text */
+    background-color: rgba(237, 240, 216, 1); /* Solid white background */
+    padding: 2rem;
+    border-radius: 15px; /* Rounds the corners */
+    text-align: center;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+  
